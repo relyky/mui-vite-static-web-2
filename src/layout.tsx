@@ -35,6 +35,7 @@ function Copyright() {
         Your Website
       </Link>{' '}
       {new Date().getFullYear()}.
+      version: {import.meta.env.VITE_APP_VERSION}
     </Typography>
   );
 }
